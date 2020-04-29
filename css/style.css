@@ -1,0 +1,82 @@
+figure {
+    display:inline-block;
+  	padding: 5px;
+  	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    vertical-align: middle
+}
+.avengersView {
+	border: 2px solid black;
+	background-color: black;
+}
+.avengersHeader {
+	color: white;
+}
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+figure:hover {
+	opacity: 0.9;
+}
+figcaption {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    vertical-align: middle
+}
+.logo {
+	vertical-align: middle
+}
+table {
+	/* border: 2px solid black;*/
+    border-collapse: collapse;
+    /*width: 90%;*/
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    /*font-weight: bold;*/
+}
+.tableView{
+  	background-color: white;
+}
+tr:hover {
+	background-color: #fff5f5;
+}
+th, td {
+   	/*border: 1px solid black;*/
+    padding: 5px;
+    text-align: center;
+}
+th {
+    /*background-color: lightgray;*/
+}
+.poster {
+  	position: relative;	
+	margin:  0 auto;
+	max-width: 400px;
+}
+.poster img {
+  	position: absolute;
+  	/*top:0;
+  	left:0;*/
+	overflow: hidden;
+	width: 500px;
+}
+.poster .poster__front-image {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  /*cursor: pointer;*/
+}
+
+.poster:hover > .poster__front-image{
+  opacity: 0;
+}
+
+#row1:active {
+	background-color: black;
+}
+
+
+
