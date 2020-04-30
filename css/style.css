@@ -12,12 +12,44 @@ figure {
 	background-color: black;
 }
 .avengersHeader {
-	color: white;
+	background-color: #fff5f5;
 }
 h1 {
+  position: absolute;
 	text-align: center;
-	font-size: 50px;
 }
+#ironManHeader, #thorHeader {
+  font-size: 150px;
+  top: 80px;
+  right: 30px;
+  color: white;
+}
+#captainAmericaHeader {
+  font-size: 150px;
+  top: 70px;
+  left: 100px;
+  color: #0f2570;
+}
+#blackWidowHeader {
+  font-size: 150px;
+  bottom: 30px;
+  left: 10px;
+  color: white;
+}
+#hawkeyeHeader {
+  font-size: 150px;
+  top: 80px;
+  left: 50px;
+  color: white;
+  text-align: left;
+}
+#hulkHeader {
+  font-size: 150px;
+  top: 20px;
+  right: 30px;
+  color: black;
+}
+
 figure:hover {
 	opacity: 0.9;
 }
