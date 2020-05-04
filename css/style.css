@@ -11,88 +11,127 @@ figure {
 	border: 2px solid black;
 	background-color: black;
 }
+#navigationbar {
+  background-color:  #ffe8e8;
+}
 .avengersHeader {
-	background-color: #fff5f5;
+	/*background-color: white;*/
+}
+body {
+  /*font-family: Arial, sans-serif;*/
 }
 h1 {
   position: absolute;
 	text-align: center;
+  font-size: 140px;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
 }
 #ironManHeader, #thorHeader {
-  font-size: 150px;
-  top: 80px;
+  top: 160px;
   right: 30px;
   color: white;
+  font-family: Arial, sans-serif;
 }
+.ironManPic {
+  padding-top: 3em;
+  /*opacity: 0.8*/
+  /*vertical-align: middle*/
+  padding-left: 2.1em;
+
+}
+
 #captainAmericaHeader {
-  font-size: 150px;
   top: 70px;
   left: 100px;
   color: #0f2570;
+  font-family: Arial, sans-serif;
 }
 #blackWidowHeader {
-  font-size: 150px;
-  bottom: 30px;
+  bottom: 90px;
   left: 10px;
   color: white;
+  font-family: Arial, sans-serif;
 }
 #hawkeyeHeader {
-  font-size: 150px;
-  top: 80px;
-  left: 50px;
+  bottom: 120px;
+  left: 10px;
   color: white;
-  text-align: left;
+  color: #7447cc;
+  /*color: #aa82fa;*/
+  color:#66ad9f;
+  font-family: Arial, sans-serif;
 }
 #hulkHeader {
-  font-size: 150px;
   top: 20px;
   right: 30px;
   color: black;
+  font-family: Arial, sans-serif;
 }
-
+.quote {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.description {
+  font-family: 'Sanchez', serif;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.abilities {
+  font-family: 'Sanchez', serif;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 30px;
+  /*padding-bottom: 30px;*/
+}
 figure:hover {
 	opacity: 0.9;
 }
 figcaption {
-    text-align: center;
-    color: white;
-    font-size: 23px;
-    vertical-align: middle
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  vertical-align: middle
+
 }
 .logo {
 	vertical-align: middle
 }
 table {
 	/* border: 2px solid black;*/
-    border-collapse: collapse;
-    /*width: 90%;*/
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    /*font-weight: bold;*/
+  border-collapse: collapse;
+  /*width: 90%;*/
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  /*font-weight: bold;*/
 }
 .tableView{
-  	background-color: white;
+  background-color: white;
 }
 tr:hover {
 	background-color: #fff5f5;
 }
 th, td {
-   	/*border: 1px solid black;*/
-    padding: 5px;
-    text-align: center;
+  /*border: 1px solid black;*/
+  padding: 5px;
+  text-align: center;
 }
 th {
     /*background-color: lightgray;*/
 }
 .poster {
-  	position: relative;	
+  position: relative;	
 	margin:  0 auto;
 	max-width: 400px;
 }
 .poster img {
-  	position: absolute;
-  	/*top:0;
-  	left:0;*/
+  position: absolute;
+  /*top:0;
+  left:0;*/
 	overflow: hidden;
 	width: 500px;
 }
@@ -110,5 +149,32 @@ th {
 	background-color: black;
 }
 
+blockquote {
+  padding-top: 1em;
+  position: relative;
+  font-family: 'Sanchez', serif;
+  line-height: 1.5em;
+  font-style: italic;
+}
+  
+blockquote::before {
+  content: '\201C';
+  position: absolute;
+  font-size: 5em;
+  top: 0.3em;
+  right: 2.2em;
+  z-index: -1;
+  color: #ffcccb;
+}
+
+blockquote::after {
+  content: '\201D';
+  position: absolute;
+  bottom: -0.2em;
+  left: 0.3em;
+  font-size: 5em;
+  z-index: -1;
+  color: #ffcccb;
+}
 
 

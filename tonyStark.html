@@ -2,63 +2,92 @@
 <html>
     <head>
         <title>Tony Stark</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet">
     </head>
    <header>
-   		<figure class="avengersHeader">
-    		<a href="index.html"><span class ="logo"><img src="img/avengers.jpg" alt="avengers" width="220px"></span></a>
-        	</figcaption> 
-        </figure>
+        <div id="navigationbar">
+       		<figure class="avengersHeader">
+                <a href="index.html"><span class ="logo"><img src="img/avengers.jpg" alt="avengers" width="220px"></span></a>
+                </figcaption> 
+            </figure>
 
-    	<figure class="avengersHeader">
-        	<figcaption>
-        		<span class ="logo"><img src="img/ironManLogo.png" alt="ironManLogo" width="40px"></span>
-        		<a href="tonyStark.html">Tony Stark</a>
-        	</figcaption> 
-        </figure>
+            <figure class="avengersHeader">
+                <figcaption>
+                    <span class ="logo"><img src="img/ironManLogo.png" alt="ironManLogo" width="40px"></span>
+                    <a href="tonyStark.html">Tony Stark</a>
+                </figcaption> 
+            </figure>
 
-        <figure class="avengersHeader">
-        	<figcaption>
-        		<span class ="logo"><img src="img/captainAmericaLogo.png" alt="captainAmericaLogo2" width="40px"></span> 
-        		<a href="steveRogers.html">Steve Rogers</a>
-        	</figcaption> 
-        </figure>
+            <figure class="avengersHeader">
+                <figcaption>
+                    <span class ="logo"><img src="img/captainAmericaLogo.png" alt="captainAmericaLogo2" width="40px"></span> 
+                    <a href="steveRogers.html">Steve Rogers</a>
+                </figcaption> 
+            </figure>
 
-        <figure class="avengersHeader">
-        	<figcaption>
-        		<span class ="logo"><img src="img/blackWidowLogo.png" alt="blackWidowLogo2" width="40px"></span> 
-        		<a href="natashaRomanoff.html">Natasha Romanoff</a>
-        	</figcaption> 
-        </figure>
+            <figure class="avengersHeader">
+                <figcaption>
+                    <span class ="logo"><img src="img/blackWidowLogo.png" alt="blackWidowLogo2" width="40px"></span> 
+                    <a href="natashaRomanoff.html">Natasha Romanoff</a>
+                </figcaption> 
+            </figure>
 
-        <figure class="avengersHeader">
-        	<figcaption>
-        		<span class ="logo"><img src="img/hulkLogo.png" alt="hulkLogo" width="40px"></span> 
-        		<a href="bruceBanner.html">Bruce Banner</a>
-        	</figcaption> 
-        </figure>
+            <figure class="avengersHeader">
+                <figcaption>
+                    <span class ="logo"><img src="img/hulkLogo.png" alt="hulkLogo" width="40px"></span> 
+                    <a href="bruceBanner.html">Bruce Banner</a>
+                </figcaption> 
+            </figure>
 
-        <figure class="avengersHeader">
-        	<figcaption>
-        		<span class ="logo"><img src="img/hawkeyeLogo.png" alt="hawkeyeLogo" width="40px"></span> 
-        		<a href="clintBarton.html">Clint Barton</a>
-        	</figcaption> 
-        </figure>
+            <figure class="avengersHeader">
+                <figcaption>
+                    <span class ="logo"><img src="img/hawkeyeLogo.png" alt="hawkeyeLogo" width="40px"></span> 
+                    <a href="clintBarton.html">Clint Barton</a>
+                </figcaption> 
+            </figure>
 
-        <figure class="avengersHeader">
-        	<figcaption>
-        		<span class ="logo"><img src="img/thorLogo.png" alt="thorLogo" width="40px"></span> 
-        		<a href="thorOdinson.html">Thor Odinson</a>
-        	</figcaption> 
-        </figure>
+            <figure class="avengersHeader">
+                <figcaption>
+                    <span class ="logo"><img src="img/thorLogo.png" alt="thorLogo" width="40px"></span> 
+                    <a href="thorOdinson.html">Thor Odinson</a>
+                </figcaption> 
+            </figure>
+        </div>
+
         <img src="img/ironManHeader.jpg" alt="ironManHeader" width="100%" height="20%">
+        <h1 id="ironManHeader">Tony<br/>Stark</h1>
     </header>
 
     <body>
-    	<h1 id="ironManHeader">Tony<br/>Stark</h1>
-
-
-
+    	<div class="container">
+            <div class="row">
+                <div class="col-md-4 quote">
+                    <!-- <h2>Quote</h2> -->
+                    <blockquote cite="http://www.thestarsolace.com/tony-stark-quotes/">
+                        You can take away my suits, you can take away my home, but there’s one thing you can never take away from me: I AM IRON MAN.
+                    </blockquote>
+                </div>
+                <div class="col-md-4 ironManPic">
+                    <img src="img/ironManLogo3.png" alt="ironManLogo" width="300px">
+                </div>
+                <div class="col-md-4 abilities">
+                    <h2>Abilities & Powers</h2>
+                    <ul>
+                        <li>Flight</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Armored Suit</li>
+                        <li>Super Strength & Durability</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md description">
+                    <h2>Description</h2>
+                    Genius. Billionaire. Playboy. Philanthropist. Tony Stark's confidence is only matched by his high-flying abilities as the hero called Iron Man. Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger.
+                </div>
+            </div>
+        </div>
         
     </body>
 </html>
