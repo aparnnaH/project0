@@ -44,7 +44,7 @@ h2 {
 }
 
 #captainAmericaHeader {
-  top: 70px;
+  top: 150px;
   left: 100px;
   color: #0f2570;
   font-family: Arial, sans-serif;
@@ -153,21 +153,27 @@ blockquote {
   padding-top: 1em;
   position: relative;
   font-family: 'Sanchez', serif;
+  font-size: 2em;
   line-height: 1.5em;
   font-style: italic;
 }
-  
-blockquote::before {
+
+.ironManQuote {
+  padding-top: 1em;
+  position: relative;
+}
+
+.ironManQuote::before {
   content: '\201C';
   position: absolute;
   font-size: 5em;
-  top: 0.3em;
-  right: 2.2em;
+  bottom: 210px;
+  right: 0.3em;
   z-index: -1;
   color: #ffcccb;
 }
 
-blockquote::after {
+.ironManQuote::after {
   content: '\201D';
   position: absolute;
   bottom: -0.2em;
