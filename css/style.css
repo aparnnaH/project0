@@ -1,186 +1,188 @@
 figure {
-    display:inline-block;
-  	padding: 5px;
-  	margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 1em;
-    margin-inline-end: 1em;
-    vertical-align: middle
-}
+  display: inline-block;
+  padding: 5px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+  vertical-align: middle; }
+
 .avengersView {
-	border: 2px solid black;
-	background-color: black;
-}
-#navigationbar {
-  background-color:  #ffe8e8;
-}
-.avengersHeader {
-	/*background-color: white;*/
-}
-body {
-  /*font-family: Arial, sans-serif;*/
-}
+  border: 2px solid black;
+  background-color: black; }
+
 h1 {
   position: absolute;
-	text-align: center;
+  text-align: center;
   font-size: 140px;
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 h2 {
-  font-weight: bold;
-}
-#ironManHeader, #thorHeader {
-  top: 160px;
-  right: 30px;
-  color: white;
-  font-family: Arial, sans-serif;
-}
-.ironManPic {
+  font-weight: bold; }
+
+header {
+  font-family: Arial, sans-serif; }
+  header #ironManHeader, header #thorHeader {
+    top: 160px;
+    right: 30px;
+    color: white; }
+  header #captainAmericaHeader {
+    top: 150px;
+    left: 100px;
+    color: #0f2570; }
+  header #blackWidowHeader {
+    bottom: 1.3em;
+    left: 10px;
+    color: white; }
+  header #hawkeyeHeader {
+    bottom: 1.5em;
+    left: 10px;
+    color: #66ad9f; }
+  header #hulkHeader {
+    top: 1em;
+    right: 30px;
+    color: black; }
+
+.circlePic {
   padding-top: 3em;
-  /*opacity: 0.8*/
-  /*vertical-align: middle*/
-  padding-left: 2.1em;
+  padding-left: 2.1em; }
 
-}
-
-#captainAmericaHeader {
-  top: 150px;
-  left: 100px;
-  color: #0f2570;
-  font-family: Arial, sans-serif;
-}
-#blackWidowHeader {
-  bottom: 90px;
-  left: 10px;
-  color: white;
-  font-family: Arial, sans-serif;
-}
-#hawkeyeHeader {
-  bottom: 120px;
-  left: 10px;
-  color: white;
-  color: #7447cc;
-  /*color: #aa82fa;*/
-  color:#66ad9f;
-  font-family: Arial, sans-serif;
-}
-#hulkHeader {
-  top: 20px;
-  right: 30px;
-  color: black;
-  font-family: Arial, sans-serif;
-}
 .quote {
   font-size: 30px;
   font-weight: bold;
-  font-family: Arial, sans-serif;
-}
-.description {
-  font-family: 'Sanchez', serif;
+  font-family: Arial, sans-serif; }
+
+.description, .abilities {
   font-style: italic;
   font-size: 30px;
-  padding-top: 30px;
-}
-.abilities {
-  font-family: 'Sanchez', serif;
-  font-style: italic;
-  font-size: 30px;
-  padding-top: 30px;
-  /*padding-bottom: 30px;*/
-}
+  padding-top: 30px; }
+
 figure:hover {
-	opacity: 0.9;
-}
+  opacity: 0.9; }
+
 figcaption {
   text-align: center;
   color: white;
   font-size: 23px;
-  vertical-align: middle
+  vertical-align: middle; }
 
-}
 .logo {
-	vertical-align: middle
-}
-table {
-	/* border: 2px solid black;*/
-  border-collapse: collapse;
-  /*width: 90%;*/
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  /*font-weight: bold;*/
-}
-.tableView{
-  background-color: white;
-}
-tr:hover {
-	background-color: #fff5f5;
-}
-th, td {
-  /*border: 1px solid black;*/
-  padding: 5px;
-  text-align: center;
-}
-th {
-    /*background-color: lightgray;*/
-}
-.poster {
-  position: relative;	
-	margin:  0 auto;
-	max-width: 400px;
-}
-.poster img {
-  position: absolute;
-  /*top:0;
-  left:0;*/
-	overflow: hidden;
-	width: 500px;
-}
-.poster .poster__front-image {
-  z-index: 9999;
-  transition: opacity .5s linear;
-  /*cursor: pointer;*/
-}
+  vertical-align: middle; }
 
-.poster:hover > .poster__front-image{
-  opacity: 0;
-}
+table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 30px; }
+
+.tableView {
+  background-color: white; }
+
+tr:hover {
+  background-color: #fff5f5; }
+
+th, td {
+  padding: 5px;
+  text-align: center; }
 
 #row1:active {
-	background-color: black;
-}
+  background-color: black; }
+
+.poster {
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px; }
+
+.poster img {
+  position: absolute;
+  overflow: hidden;
+  width: 500px; }
+
+.poster .poster__front-image {
+  z-index: 9999;
+  transition: opacity .5s linear; }
+
+.poster:hover > .poster__front-image {
+  opacity: 0; }
 
 blockquote {
   padding-top: 1em;
   position: relative;
-  font-family: 'Sanchez', serif;
+  font-family: Sanchez, serif;
   font-size: 2em;
   line-height: 1.5em;
-  font-style: italic;
-}
+  font-style: italic; }
 
-.ironManQuote {
+.ironManQuote, .captainAmericaQuote, .blackWidowsQuote, .hulkQuote, .thor, .hawkeyeQuote {
   padding-top: 1em;
-  position: relative;
-}
+  position: relative; }
 
-.ironManQuote::before {
+.ironManQuote::before, .captainAmericaQuote::before, .blackWidowsQuote::before, .hulkQuote::before, .hawkeyeQuote::before, .thorQuote::before {
   content: '\201C';
   position: absolute;
   font-size: 5em;
-  bottom: 210px;
-  right: 0.3em;
   z-index: -1;
-  color: #ffcccb;
-}
+  color: #ffcccb; }
 
-.ironManQuote::after {
+.ironManQuote::after, .captainAmericaQuote::after, .blackWidowsQuote::after, .hulkQuote::after, .hawkeyeQuote::after, .thorQuote::after {
   content: '\201D';
   position: absolute;
-  bottom: -0.2em;
-  left: 0.3em;
   font-size: 5em;
   z-index: -1;
-  color: #ffcccb;
-}
+  color: #ffcccb; }
 
+.ironManQuote::before {
+  bottom: 210px;
+  right: 0.3em; }
 
+.ironManQuote::after {
+  bottom: -0.2em;
+  left: 0.3em; }
+
+.captainAmericaQuote::before {
+  bottom: 100px;
+  right: 1.8em; }
+
+.captainAmericaQuote::after {
+  bottom: -0.2em;
+  left: 1.8em; }
+
+.blackWidowsQuote::before {
+  bottom: 210px;
+  right: 0.9em; }
+
+.blackWidowsQuote::after {
+  bottom: -0.2em;
+  left: 0.9em; }
+
+.hulkQuote::before {
+  top: 0.3em;
+  right: 1.1em; }
+
+.hulkQuote::after {
+  bottom: -0.2em;
+  left: 1.1em; }
+
+.hawkeyeQuote::before {
+  top: 0.3em;
+  right: 0.3em; }
+
+.hawkeyeQuote::after {
+  bottom: -0.2em;
+  left: 0.3em; }
+
+.thorQuote::before {
+  top: 0.4em;
+  right: 2em; }
+
+.thorQuote::after {
+  bottom: -0.2em;
+  left: 1.4em; }
+
+@media (max-width: 1650px) {
+  #ironManHeader, #captainAmericaHeader, #blackWidowHeader, #hawkeyeHeader, #hulkHeader, #thorHeader {
+    display: none; } }
+@media (max-width: 1200px) {
+  .ironManQuote::before, .ironManQuote::after, .captainAmericaQuote::before, .captainAmericaQuote::after, .blackWidowsQuote::before, .blackWidowsQuote::after, .hulkQuote::before, .hulkQuote::after, .hawkeyeQuote::before, .hawkeyeQuote::after, .thorQuote::before, .thorQuote::after {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
